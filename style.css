@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 650px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar .nav-link{
+    margin-right: 60px;
+    color: white;
+    text-decoration: underline;
+
+}
+#second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#second .second-item span{
+    margin-right: 60px;
+    text-decoration: underline;
+}
+
+/* History-Start */
+#history{
+    min-height: 600px;
+    background-image: url(./images/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.big-one{
+    font-size: 90px;
+    font-weight: 700;
+    color: #6e7e9a;
+}
+
+.history{
+    width: 60%;
+    margin: 0 auto;
+}
+.title-h{
+    position: relative;
+}
+
+.big-another{
+    position: relative;
+    right: 50px;
+    color: #414f6b;
+    bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#history-bottom{
+    min-height: 190px;
+    background-image: url(./images/carouselbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* History-End */
+
+#climb-section .big-one{
+    color: #b0b4be;
+}
+
+/* Mountain-start */
+
+#mountain .hadding{
+    margin-top: 20px;
+    height: 57px;
+    background-color: #414f6b;
+}
+
+.hadding .first-hadding{
+    padding: 8px 3px;
+    align-items: center !;
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+}
+
+.hadding .second-hadding{
+    color: #9ea3af;
+    margin-left: 30px;
+}
+
+#mountain .footer{
+    min-height: 500px;
+    background-image: url(./images/tab-img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+small{
+    background-color: #e5eaf3    ;
+}
